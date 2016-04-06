@@ -65,7 +65,7 @@
 		z-index: -10000;
 	}
 	.vc-overlay{
-		background-color: rgba(0,0,0,0.2);
+		background-color: rgba(0,0,0,0.1);
 		position: fixed;
 		top: 0;
 		right: 0;
@@ -77,7 +77,7 @@
 		height: 400px;
 		background-color: #f4f4f4;
 		border-bottom: #aaa 1px solid;
-		position: absolute;
+		position: fixed;
 		top: 50%;
 		left: 50%;
 		margin-top: -200px;

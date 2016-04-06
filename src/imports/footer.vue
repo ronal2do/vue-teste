@@ -22,3 +22,9 @@
 		</footer>
 	</div>
 </template>
+<style>
+	.footer{
+		background-color: #123456;
+		color: #fff;
+	}
+</style>

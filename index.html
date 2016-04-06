@@ -8,13 +8,43 @@
   	<script src="assets/js/ease.min.js"></script>
     <title>modal</title>
     <style>
-	   
+	   section.verde {
+        background: gold;
+        height: 200px;
+        padding: 10px;
+        position: relative; /* This turns the <section> into a point of reference for the <p> */
+      }
+
+      p.um {
+        background: limegreen;
+        color: white;
+        padding: 10px;
+        position: absolute; /* This makes the <p> freely movable */
+        top: -25px; /* 10px from the bottom */
+        left: 0px; /* 20px from the left */
+      }
+       p.dois {
+        background: limegreen;
+        color: white;
+        padding: 10px;
+        position: absolute; /* This makes the <p> freely movable */
+        top: 30px; /* 10px from the bottom */
+        right: 0px; /* 20px from the left */
+      }
     </style>
   </head>
   	<body>
 
 	   <app></app>
-
+     <section class="verde">
+        I'm in position relative.
+        <p class="um">
+          I'm in position absolute!
+        </p>
+         <p class="dois">
+          I'm in position absolute!
+        </p>
+    </section>
     <script src="dist/build.js"></script>
   	<script src="assets/js/main.js"></script>
   </body>
